@@ -51,8 +51,8 @@ Adblocker		Chrome doesn't have a built-in adblocker.
 
 User-Agent		The User-Agent in Chrome is only be changeable 
 			with parameters over a link or command, which isn't 
-			really ideal for permanend usage. It should be
-			flexible and permanty changed by a configuration file.
+			really ideal for permanent usage. It should be
+			flexible and permantly changed by a configuration file.
 
 ==========================================================================
 
