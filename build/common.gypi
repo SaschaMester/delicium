@@ -74,7 +74,7 @@
           # the platform certificate library is used for certificate
           # verification. On other targets, this flag also enables OpenSSL for
           # certificate verification, but this configuration is unsupported.
-          'use_openssl_certs%': 0,
+          'use_openssl_certs%': 1,
 
           # Disable viewport meta tag by default.
           'enable_viewport%': 0,
@@ -568,7 +568,7 @@
       'enable_spellcheck%': 1,
 
       # Webrtc compilation is enabled by default. Set to 0 to disable.
-      'enable_webrtc%': 1,
+      'enable_webrtc%': 0,
 
       # Media router support is enabled by default. Set to 0 to disable.
       'enable_media_router%': 1,
