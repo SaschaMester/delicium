@@ -1,0 +1,62 @@
+Issue			Description
+==========================================================================
+
+Installation-ID 	A copy of Google Chrome includes a generated 
+			installation number which will be sent to Google 
+			after the installation and the first usage. It 
+			gets deleted when Chrome checks first time for 
+			updates.If Chrome is received as part of a 
+			promotional campaign, it may generate a unique 
+			promotion number which is sent to Google on the 
+			first run and first use of Google Chrome.
+==========================================================================
+
+Suggest 		Depending on the configuration, each time you put 
+			something in the adress line, this information 
+			is sent to Google to provide suggestions.
+
+==========================================================================
+
+Alternate Error Pages	Depending on the configuration, if you have typed
+			a false address in the adress bar, this is sent to
+			Google and you get an error message from Google's 
+			servers.
+
+==========================================================================
+
+Error Reporting		Depending on the configuration, details about 
+			crashes are sent to Google's Servers.
+
+==========================================================================
+
+RLZ-Tracking		This Chrome-function transmitts information in
+			encoded form tp Google, for example, when and where
+			Chrome has been downloaded.
+
+==========================================================================
+
+Google Updater		Chrome installs an updater, which loads at every 
+			Windows in background. 
+
+==========================================================================
+
+URL-Tracker		Calls depending on the configuration five seconds 
+			after launch the Google homepage opens in background.
+
+==========================================================================
+
+Adblocker		Chrome doesn't have a built-in adblocker.
+
+==========================================================================
+
+User-Agent		The User-Agent in Chrome is only be changeable 
+			with parameters over a link or command, which isn't 
+			really ideal for permanend usage. It should be
+			flexible and permanty changed by a configuration file.
+
+==========================================================================
+
+Preview-Thumbs		Chrome only has 8 preview thumbs on the "NewTab"-Page.
+			Offer more preview-thumbs to make the most of the 
+			available space on monitor. 
+
