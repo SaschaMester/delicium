@@ -101,7 +101,7 @@
           'buildtype%': 'Dev',
 
           # Override branding to select the desired branding flavor.
-          'branding%': 'Chromium',
+          'branding%': 'Delicium',
 
           'conditions': [
             # ChromeOS and Windows use Aura and Ash.
@@ -202,8 +202,8 @@
             'branding_path_component%': 'google_chrome',
           }],
 
-          ['branding == "Chromium"', {
-            'branding_path_component%': 'chromium',
+          ['branding == "Delicium"', {
+            'branding_path_component%': 'delicium',
           }],
 
           # Ash needs Aura.
@@ -823,7 +823,7 @@
         # building Chromium or Google Chrome. We also ship Google Chrome and
         # Chromecast with proprietary codecs.
         ['OS=="android" or branding=="Chrome" or chromecast==1', {
-          'proprietary_codecs%': 1,
+          'proprietary_codecs%': 0,
         }, {
           'proprietary_codecs%': 0,
         }],
@@ -1663,7 +1663,7 @@
           ['branding=="Chrome"', {
             'ios_product_name%': 'Chrome',
           }, { # else: branding!="Chrome"
-            'ios_product_name%': 'Chromium',
+            'ios_product_name%': 'Delicium',
           }],
           ['branding=="Chrome" and buildtype=="Official"', {
             'ios_breakpad%': 1,
@@ -1906,7 +1906,7 @@
           ['branding=="Chrome"', {
             'mac_product_name%': 'Google Chrome',
           }, { # else: branding!="Chrome"
-            'mac_product_name%': 'Chromium',
+            'mac_product_name%': 'Delicium',
           }],
           # Official mac builds require a specific OS X SDK, but iOS and
           # non-official mac builds do not.
@@ -2032,7 +2032,7 @@
                          '-E', 'CHROMIUM_BUILD=google_chrome'],
       }, {
         'grit_defines': ['-D', '_chromium',
-                         '-E', 'CHROMIUM_BUILD=chromium'],
+                         '-E', 'CHROMIUM_BUILD=delicium'],
       }],
       ['chromeos==1', {
         'grit_defines': ['-D', 'chromeos', '-D', 'scale_factors=2x'],
