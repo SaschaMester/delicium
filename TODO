@@ -1,6 +1,10 @@
 Issue			Description
 ==========================================================================
 
+How to build?		Figure out how to build the software from source
+
+==========================================================================
+
 Installation-ID 	A copy of Google Chrome includes a generated 
 			installation number which will be sent to Google 
 			after the installation and the first usage. It 
