@@ -414,7 +414,7 @@
       'safe_browsing%': 1,
 
       # Web speech is enabled by default. Set to 0 to disable.
-      'enable_web_speech%': 1,
+      'enable_web_speech%': 0,
 
       # 'Ok Google' hotwording is disabled by default in open source builds. Set
       # to 1 to enable. (This will download a closed-source NaCl module at
@@ -541,7 +541,7 @@
       'enable_extensions%': 1,
 
       # Enable Google Now.
-      'enable_google_now%': 1,
+      'enable_google_now%': 0,
 
       # Enable basic printing support and UI.
       'enable_basic_printing%': 1,
@@ -589,7 +589,7 @@
       'enable_prod_wallet_service%': 0,
 
       # Enables support for background apps.
-      'enable_background%': 1,
+      'enable_background%': 0,
 
       # Enable the task manager by default.
       'enable_task_manager%': 1,
@@ -1986,7 +1986,7 @@
       }],
 
       ['enable_plugins==1 and (OS=="linux" or OS=="mac" or OS=="win") and chromecast==0', {
-        'enable_pepper_cdms%': 1,
+        'enable_pepper_cdms%': 0,
       }, {
         'enable_pepper_cdms%': 0,
       }],
