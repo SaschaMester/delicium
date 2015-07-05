@@ -1,7 +1,7 @@
-COMPANY_FULLNAME=The Chromium Authors
-COMPANY_SHORTNAME=The Chromium Authors
-PRODUCT_FULLNAME=Chromium
-PRODUCT_SHORTNAME=Chromium
-PRODUCT_INSTALLER_FULLNAME=Chromium Installer
-PRODUCT_INSTALLER_SHORTNAME=Chromium Installer
-COPYRIGHT=Copyright 2014 The Chromium Authors. All rights reserved.
+COMPANY_FULLNAME=The Delicium Authors
+COMPANY_SHORTNAME=The Delicium Authors
+PRODUCT_FULLNAME=Delicium
+PRODUCT_SHORTNAME=Delicium
+PRODUCT_INSTALLER_FULLNAME=Delicium Installer
+PRODUCT_INSTALLER_SHORTNAME=Delicium Installer
+COPYRIGHT=Copyleft 2015 The Delicium Authors.
